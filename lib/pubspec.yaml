@@ -1,0 +1,26 @@
+name: flutter_codemagic_app
+description: Una aplicación simple para integrar con Codemagic.
+
+# La versión de la aplicación
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"  # Asegúrate de usar la versión de Dart que corresponde con tu Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Puedes agregar aquí otras dependencias que utilices en tu proyecto.
+  # Ejemplo de dependencia para HTTP:
+  # http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Si tienes imágenes o fuentes personalizadas, puedes declararlas aquí
+  assets:
+    - assets/images/
